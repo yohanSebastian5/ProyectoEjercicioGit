@@ -91,6 +91,7 @@
     <Content Include="Vista\Bootstrap\js\bootstrap.min.js" />
     <Content Include="Vista\Css\Style.css" />
     <Content Include="Vista\ListarCategorias.aspx" />
+    <Content Include="Vista\ListarProducto.aspx" />
     <Content Include="Vista\RegistrarUsuarios.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -111,6 +112,13 @@
     </Compile>
     <Compile Include="Vista\ListarCategorias.aspx.designer.cs">
       <DependentUpon>ListarCategorias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\ListarProducto.aspx.cs">
+      <DependentUpon>ListarProducto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vista\ListarProducto.aspx.designer.cs">
+      <DependentUpon>ListarProducto.aspx</DependentUpon>
     </Compile>
     <Compile Include="Vista\RegistrarUsuarios.aspx.cs">
       <DependentUpon>RegistrarUsuarios.aspx</DependentUpon>
