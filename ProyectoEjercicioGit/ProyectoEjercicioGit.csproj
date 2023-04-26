@@ -91,9 +91,12 @@
     <Content Include="Vista\Bootstrap\js\bootstrap.min.js" />
     <Content Include="Vista\Css\Style.css" />
     <Content Include="Vista\ListarCategorias.aspx" />
+    <Content Include="Vista\RegistrarUsuarios.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Datos\ProductoD.cs" />
+    <Compile Include="Entidades\ProductoL.cs" />
     <Compile Include="Principal.Master.cs">
       <DependentUpon>Principal.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -108,6 +111,13 @@
     </Compile>
     <Compile Include="Vista\ListarCategorias.aspx.designer.cs">
       <DependentUpon>ListarCategorias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\RegistrarUsuarios.aspx.cs">
+      <DependentUpon>RegistrarUsuarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vista\RegistrarUsuarios.aspx.designer.cs">
+      <DependentUpon>RegistrarUsuarios.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -143,8 +153,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Datos\" />
-    <Folder Include="Entidades\" />
     <Folder Include="Logica\" />
   </ItemGroup>
   <PropertyGroup>
