@@ -1,0 +1,4 @@
+﻿body {
+    background: rgb(109,113,134);
+    background: radial-gradient(circle, rgba(109,113,134,1) 0%, rgba(170,155,158,1) 100%);
+}

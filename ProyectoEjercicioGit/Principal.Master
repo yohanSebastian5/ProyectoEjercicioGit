@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Principal.master.cs" Inherits="ProyectoEjercicioGit.Principal" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="Vista/Bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="Vista/Css/Style.css" rel="stylesheet" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+    <form id="form1" runat="server">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <div class="container-fluid">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Registrar Producto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Listar Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Registrar Usuarios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Listar Usuarios</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div>
+
+
+
+
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <script src="Vista/Bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
